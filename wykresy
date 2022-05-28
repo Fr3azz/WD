@@ -1,7 +1,8 @@
-import pandas as pd
-import math
-import numpy as np
-import matplotlib.pyplot as plt
+import pandas as pd #1,4,0
+import math 
+import numpy as np #1.22.2
+import matplotlib.pyplot as plt #3,5,1
+        #openpyxl 3.0.9
 from PIL import Image
 # plt.plot([1,2,3,4],[1,4,9,16],'ro')
 # plt.ylabel('liczby z wektora')
