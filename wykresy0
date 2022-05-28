@@ -1,0 +1,14 @@
+ = np.arange(-8, 8, 0.2)
+y = 20*np.sin(x)
+plt.plot(x,y,'red', linestyle="--", label="20*sin(x)")
+z = (2*x/5)-2
+a = 7-x
+plt.plot(x,z,'yellow', linestyle="--", label="(2x/5)-2)")
+plt.plot(x,a,'green', linestyle="-", label="7-x")
+plt.legend(loc='lower left')
+plt.title('Tytuł ABCD')
+labely = np.arange(-30,40,10)
+labelx = np.arange(-6,7)
+plt.ylim([-30,30])
+plt.savefig('wykres.pdf', format='pdf')
+plt.show()
